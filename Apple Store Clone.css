@@ -1,0 +1,130 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    background-color: whitesmoke;
+    position: relative;
+}
+.Header{
+    display: flex;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    fill: whitesmoke;
+    color: #191C27;
+    padding-bottom: 0px;
+    margin-bottom: -20px;
+    color: #474747;
+}
+
+.store{
+    color: grey;
+}
+
+.content{
+    text-align: left;
+    font-style: normal;
+    font-size: x-large;
+    font-weight: lighter;
+    line-height: 0.5;
+    
+}
+
+.Header>div{
+    padding: 20px;
+    fill: whitesmoke;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+.mid{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #474747;
+    padding: 10px;
+    background-color: white;
+    line-height: 0.5;
+    font-size: 15px;
+
+}
+a{
+    text-decoration: none;
+    color: dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.content{
+    background-color: whitesmoke;
+    color: gray;
+    margin-left: 130px;
+    margin-top: 90px;
+    font-size: 47px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+    line-height: 0.1;
+}
+
+.products{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.products>div{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.store{
+    color: black;
+}
+
+.newproducts{
+    text-align: left;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 550;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 130px;
+    margin-top: 50px;
+    color: gray;
+}
+
+.store1{
+    color: black;
+}
+
+.phones{
+    display: flex;
+    margin-left: 115px;
+    margin-top: 15px;
+}
+
+.phones>div{
+    padding: 15px;
+    box-shadow: 5%;
+    position: relative;
+}
+
+.phones>div:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    transition-duration: 500ms;
+}
+
+.products>div:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Header>div:hover{
+    cursor: pointer;
+}
